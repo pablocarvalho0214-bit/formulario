@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Questionário Avançado – Advocacia</title>
+
+<style>
+    body {
+        font-family: "Poppins", sans-serif;
+        background: #faf7ff;
+        padding: 20px;
+        color: #3c2a4e;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    h1, h2 {
+        color: #5e2b97;
+        text-align: center;
+    }
+
+    form {
+        background: #ffffff;
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(94, 43, 151, 0.15);
+        margin-top: 20px;
+    }
+
+    label {
+        font-weight: 600;
+        display: block;
+        margin-top: 15px;
+        color: #4a2c6e;
+    }
+
+    input, select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 2px solid #c7b7e6;
+        border-radius: 10px;
+        margin-top: 5px;
+        font-size: 15px;
+        background: #fdfbff;
+        transition: 0.2s;
+    }
+
+    input:focus, select:focus, textarea:focus {
+        border-color: #5e2b97;
+        outline: none;
+        background: #ffffff;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+        margin-top: 25px;
+        background: #5e2b97;
+        color: #fff;
+        font-size: 18px;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: #4b207a;
+    }
+
+    .section-title {
+        margin-top: 40px;
+        font-size: 22px;
+        border-left: 6px solid #5e2b97;
+        padding-left: 10px;
+    }
+</style>
+</head>
+
+<body>
+
+<h1>🧠 QUESTIONÁRIO AVANÇADO</h1>
+<h2>Mapeamento Completo da Rotina, Estudo e Advocacia</h2>
+
+<form action="https://formsubmit.co/pablo.carvalho0214@gmail.com" method="POST">
+
+    <!-- Configurações ocultas -->
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_next" value="https://pablocarvalho0214-bit.github.io/sucesso.html">
+
+    <!-- SEÇÃO 1 -->
+    <h2 class="section-title">SEÇÃO 1 – Perfil Completo</h2>
+
+    <label>Nome completo</label>
+    <input type="text" name="nome" required>
+
+    <label>E-mail profissional</label>
+    <input type="email" name="email" required>
+
+    <label>Telefone</label>
+    <input type="tel" name="telefone" required pattern="\\d{10,11}" placeholder="Apenas números">
+
+    <label>Idade</label>
+    <input type="number" name="idade" min="18" max="99" required>
+
+
+    <!-- SEÇÃO 2 -->
+    <h2 class="section-title">SEÇÃO 2 – Rotina e Produtividade</h2>
+
+    <label>Como você organiza seu dia?</label>
+    <textarea name="organizacao" rows="4" required></textarea>
+
+    <label>Ferramentas que usa atualmente</label>
+    <input type="text" name="ferramentas">
+
+    <label>Nível de produtividade atual (1 a 10)</label>
+    <input type="number" name="produtividade" min="1" max="10">
+
+
+    <!-- SEÇÃO 3 -->
+    <h2 class="section-title">SEÇÃO 3 – Estudos</h2>
+
+    <label>Quantas horas por dia você consegue estudar?</label>
+    <input type="number" name="horas_estudo" min="0" max="12">
+
+    <label>Principais dificuldades nos estudos</label>
+    <textarea name="dificuldades_estudo" rows="4"></textarea>
+
+
+    <!-- SEÇÃO 4 -->
+    <h2 class="section-title">SEÇÃO 4 – Advocacia</h2>
+
+    <label>Área(s) que você atua</label>
+    <input type="text" name="area_atuacao">
+
+    <label>Quantidade média de processos ativos</label>
+    <input type="number" name="processos">
+
+    <label>Maior desafio atualmente na advocacia</label>
+    <textarea name="desafio_advocacia" rows="4"></textarea>
+
+
+    <!-- BOTÃO -->
+    <button type="submit">Enviar Respostas</button>
+</form>
+
+</body>
+</html>
