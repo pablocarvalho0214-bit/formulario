@@ -3,149 +3,179 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Questionário Avançado – Advocacia</title>
+<title>Formulário de Rotina – Advocacia e Estudos</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<!-- Ícones -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
 <style>
     body {
-        font-family: "Poppins", sans-serif;
-        background: #faf7ff;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #3d0a6d, #6a0dad, #9b4de3);
+        color: white;
         padding: 20px;
-        color: #3c2a4e;
-        max-width: 900px;
-        margin: auto;
+        animation: fadeIn 1s ease-out;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
     }
 
     h1, h2 {
-        color: #5e2b97;
         text-align: center;
     }
 
-    form {
-        background: #ffffff;
-        padding: 25px;
+    .container {
+        background: rgba(255, 255, 255, 0.12);
+        padding: 20px;
         border-radius: 15px;
-        box-shadow: 0 0 20px rgba(94, 43, 151, 0.15);
-        margin-top: 20px;
+        max-width: 800px;
+        margin: auto;
+        box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        backdrop-filter: blur(8px);
+        animation: slideUp 0.8s ease-out;
+    }
+
+    @keyframes slideUp {
+        from { opacity: 0; transform: translateY(40px); }
+        to { opacity: 1; transform: translateY(0); }
     }
 
     label {
         font-weight: 600;
-        display: block;
         margin-top: 15px;
-        color: #4a2c6e;
+        display: block;
     }
 
     input, select, textarea {
         width: 100%;
         padding: 12px;
-        border: 2px solid #c7b7e6;
-        border-radius: 10px;
+        border-radius: 8px;
+        border: none;
         margin-top: 5px;
-        font-size: 15px;
-        background: #fdfbff;
-        transition: 0.2s;
     }
 
-    input:focus, select:focus, textarea:focus {
-        border-color: #5e2b97;
-        outline: none;
-        background: #ffffff;
-    }
+    textarea { height: 120px; }
 
     button {
+        margin-top: 20px;
         width: 100%;
+        background: #ffffff;
+        color: #4b0082;
         padding: 15px;
-        margin-top: 25px;
-        background: #5e2b97;
-        color: #fff;
-        font-size: 18px;
         border: none;
-        border-radius: 12px;
+        font-size: 18px;
+        border-radius: 10px;
         cursor: pointer;
-        font-weight: bold;
+        font-weight: 700;
         transition: 0.3s;
     }
 
     button:hover {
-        background: #4b207a;
+        background: #d5b3ff;
+        transform: scale(1.03);
     }
 
-    .section-title {
-        margin-top: 40px;
-        font-size: 22px;
-        border-left: 6px solid #5e2b97;
-        padding-left: 10px;
+    .icon {
+        font-size: 28px;
+        margin-right: 8px;
+        vertical-align: middle;
     }
 </style>
 </head>
-
 <body>
 
-<h1>🧠 QUESTIONÁRIO AVANÇADO</h1>
-<h2>Mapeamento Completo da Rotina, Estudo e Advocacia</h2>
+<h1><i class="bi bi-balance-scale icon"></i> Questionário Completo</h1>
+<h2>Mapeamento de Rotina, Advocacia e Estudos</h2>
 
+<div class="container">
 <form action="https://formsubmit.co/pablo.carvalho0214@gmail.com" method="POST">
 
-    <!-- Configurações ocultas -->
+    <!-- Redireciona após enviar -->
+    <input type="hidden" name="_next" value="https://pablocarvalho0214-bit.github.io/success.html">
     <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_template" value="table">
-    <input type="hidden" name="_next" value="https://pablocarvalho0214-bit.github.io/sucesso.html">
 
-    <!-- SEÇÃO 1 -->
-    <h2 class="section-title">SEÇÃO 1 – Perfil Completo</h2>
-
+    <h2>Perfil</h2>
     <label>Nome completo</label>
-    <input type="text" name="nome" required>
-
-    <label>E-mail profissional</label>
-    <input type="email" name="email" required>
-
-    <label>Telefone</label>
-    <input type="tel" name="telefone" required pattern="\\d{10,11}" placeholder="Apenas números">
+    <input type="text" name="Nome" required>
 
     <label>Idade</label>
-    <input type="number" name="idade" min="18" max="99" required>
+    <input type="number" name="Idade" required>
 
+    <label>Cidade/Estado</label>
+    <input type="text" name="Cidade">
 
-    <!-- SEÇÃO 2 -->
-    <h2 class="section-title">SEÇÃO 2 – Rotina e Produtividade</h2>
+    <label>Você já estudou para concursos?</label>
+    <select name="Experiência">
+        <option value="Sim">Sim</option>
+        <option value="Não">Não</option>
+        <option value="Pouco">Pouco</option>
+    </select>
 
-    <label>Como você organiza seu dia?</label>
-    <textarea name="organizacao" rows="4" required></textarea>
+    <h2>Rotina Geral</h2>
+    <label>Horário que acorda</label>
+    <input type="time" name="Acorda" required>
 
-    <label>Ferramentas que usa atualmente</label>
-    <input type="text" name="ferramentas">
+    <label>Horário que dorme</label>
+    <input type="time" name="Dorme" required>
 
-    <label>Nível de produtividade atual (1 a 10)</label>
-    <input type="number" name="produtividade" min="1" max="10">
+    <label>Horário de trabalho (início)</label>
+    <input type="time" name="Trabalho_inicio" required>
 
+    <label>Horário de trabalho (fim)</label>
+    <input type="time" name="Trabalho_fim" required>
 
-    <!-- SEÇÃO 3 -->
-    <h2 class="section-title">SEÇÃO 3 – Estudos</h2>
+    <label>Horário de almoço</label>
+    <input type="time" name="Almoço">
 
-    <label>Quantas horas por dia você consegue estudar?</label>
-    <input type="number" name="horas_estudo" min="0" max="12">
+    <label>Tempo de deslocamento total (em horas)</label>
+    <input type="time" name="Deslocamento">
 
-    <label>Principais dificuldades nos estudos</label>
-    <textarea name="dificuldades_estudo" rows="4"></textarea>
+    <h2>Hábitos e Rotina Pessoal</h2>
+    <label>Tempo dedicado à família</label>
+    <input type="time" name="Família">
 
+    <label>Tempo de lazer (séries, hobbies, descanso)</label>
+    <input type="time" name="Lazer">
 
-    <!-- SEÇÃO 4 -->
-    <h2 class="section-title">SEÇÃO 4 – Advocacia</h2>
+    <label>Você faz atividade física?</label>
+    <select name="Atividade_fisica">
+        <option>Sim</option>
+        <option>Não</option>
+        <option>Às vezes</option>
+    </select>
 
-    <label>Área(s) que você atua</label>
-    <input type="text" name="area_atuacao">
+    <label>Descreva sua rotina atual</label>
+    <textarea name="Descrição_rotina"></textarea>
 
-    <label>Quantidade média de processos ativos</label>
-    <input type="number" name="processos">
+    <h2>Objetivos e Estudos</h2>
 
-    <label>Maior desafio atualmente na advocacia</label>
-    <textarea name="desafio_advocacia" rows="4"></textarea>
+    <label>Qual concurso é seu objetivo?</label>
+    <input type="text" name="Concurso" required>
 
+    <label>Quantas horas deseja estudar por dia?</label>
+    <input type="time" name="Meta_estudo" required>
 
-    <!-- BOTÃO -->
-    <button type="submit">Enviar Respostas</button>
+    <label>Quais matérias tem mais dificuldade?</label>
+    <textarea name="Dificuldades"></textarea>
+
+    <label>Como você costuma estudar?</label>
+    <textarea name="Método_estudo"></textarea>
+
+    <label>Observações finais</label>
+    <textarea name="Observações"></textarea>
+
+    <button type="submit">
+        <i class="bi bi-send-fill"></i> Enviar Respostas
+    </button>
 </form>
+</div>
 
 </body>
 </html>
+
