@@ -23,23 +23,23 @@ O objetivo é que o pedido entre pelo site e passe por pagamento, ERP, nota fisc
 
 | # | Serviço | Horas estimadas | Valor |
 |---|---------|:---------------:|------:|
-| 1 | WooCommerce: correções, responsividade e reestilização | 18 h | **R$ 1.500,00** |
-| 2 | Integração WooCommerce + Olist + APPMAX | 32 h | **R$ 2.800,00** |
-| 3 | NF-e, etiquetas e envio (fluxo de 1 clique) | 14 h | **R$ 1.200,00** |
-| 4 | WhatsApp + IA (n8n + Evolution API + OpenAI) | 30 h | **R$ 2.500,00** |
-| 5 | Automações adicionais | 14 h | **R$ 1.200,00** |
-| 6 | Testes completos e treinamento (2 h online) | 6 h | **R$ 400,00** |
-| 7 | Suporte: 3 h/mês durante 2 meses (6 h) | 6 h | **R$ 600,00** |
-| | **Soma dos serviços** | **120 h** | **R$ 10.200,00** |
-| | **Pacote completo (desconto de ~7%)** | | **R$ 9.500,00** |
+| 1 | WooCommerce: correções, responsividade e reestilização | 18 h | **R$ 700,00** |
+| 2 | Integração WooCommerce + Olist + APPMAX | 32 h | **R$ 1.200,00** |
+| 3 | NF-e, etiquetas e envio (fluxo de 1 clique) | 14 h | **R$ 500,00** |
+| 4 | WhatsApp + IA (n8n + Evolution API + OpenAI) | 30 h | **R$ 1.100,00** |
+| 5 | Automações adicionais | 14 h | **R$ 500,00** |
+| 6 | Testes completos e treinamento (2 h online) | 6 h | **R$ 200,00** |
+| 7 | Suporte: 3 h/mês durante 2 meses (6 h) | 6 h | **R$ 400,00** |
+| | **Soma dos serviços** | **120 h** | **R$ 4.600,00** |
+| | **Pacote completo (desconto de ~9%)** | | **R$ 4.200,00** |
 
-> Os itens podem ser contratados separadamente pelos valores da tabela. Fechando o pacote completo, o valor cai para **R$ 9.500,00**.
+> Os itens podem ser contratados separadamente pelos valores da tabela. Fechando o pacote completo, o valor cai para **R$ 4.200,00**.
 
 ---
 
 ## 3. Detalhamento do escopo
 
-### 3.1 WooCommerce / site (R$ 1.500)
+### 3.1 WooCommerce / site (R$ 700)
 - Diagnóstico técnico: tema, plugins, conflitos, console de erros, cache e performance.
 - Correção dos bugs atuais, dos loops de produtos e dos elementos que não carregam (sliders, vitrines, AJAX, carrinho lateral etc.).
 - Padronização das imagens de produto (proporção, recorte, tamanhos de miniatura e regeneração) e otimização com WebP/lazy load.
@@ -48,7 +48,7 @@ O objetivo é que o pedido entre pelo site e passe por pagamento, ERP, nota fisc
 - Revisão geral da loja: cadastro, busca, filtros, cupons, e-mails do WooCommerce, fluxo de compra e SEO básico.
 - Backup completo antes de qualquer alteração. O trabalho é feito em ambiente de homologação quando possível.
 
-### 3.2 Integração WooCommerce + Olist + APPMAX (R$ 2.800)
+### 3.2 Integração WooCommerce + Olist + APPMAX (R$ 1.200)
 - Sincronização de produtos por **SKU**, incluindo **variações** (cor, tamanho, volume etc.).
 - **Estoque centralizado no Olist**, atualizado automaticamente no site.
 - Sincronização de **preços** e promoções.
@@ -60,7 +60,7 @@ O objetivo é que o pedido entre pelo site e passe por pagamento, ERP, nota fisc
 - **Retorno do Olist para o WooCommerce:** número da NF, código de rastreio e status de envio.
 - Uso das integrações nativas quando forem suficientes e webhooks/n8n quando for preciso complementar.
 
-### 3.3 NF-e, etiquetas e envio (R$ 1.200)
+### 3.3 NF-e, etiquetas e envio (R$ 500)
 - Fluxo de **1 clique** após a separação do pedido:
   1. emissão/autorização da **NF-e**;
   2. geração da **etiqueta** da transportadora/Correios;
@@ -69,7 +69,7 @@ O objetivo é que o pedido entre pelo site e passe por pagamento, ERP, nota fisc
 - Configuração das regras fiscais básicas no Olist (natureza de operação, CFOP padrão). A parte tributária é validada pelo contador da loja.
 - Documentação do passo a passo da expedição.
 
-### 3.4 WhatsApp + IA, "MEU MOUSE" (R$ 2.500)
+### 3.4 WhatsApp + IA, "MEU MOUSE" (R$ 1.100)
 - Instalação de **n8n + Evolution API** em **VPS Hostinger** com Docker, SSL, domínio/subdomínio e backup.
 - Conexão do número de WhatsApp da loja.
 - Integração com a **OpenAI**.
@@ -78,21 +78,21 @@ O objetivo é que o pedido entre pelo site e passe por pagamento, ERP, nota fisc
 - **Mensagens automáticas** de pedido recebido, pagamento aprovado/recusado, em preparação, enviado (com rastreio), entregue e pós-venda (avaliação/recompra).
 - Base de conhecimento editável pela loja (políticas, FAQ, tom de voz).
 
-### 3.5 Automações adicionais (R$ 1.200)
+### 3.5 Automações adicionais (R$ 500)
 - **Recuperação de carrinho abandonado** por WhatsApp e/ou e-mail, com sequência de lembretes e cupom opcional.
 - **Pop-ups promocionais**: captura de e-mail/WhatsApp, cupom de primeira compra e saída da página.
 - **Integração com Instagram e TikTok**: catálogo de produtos, Instagram Shopping, TikTok Shop/catálogo e pixels.
 - **Automação de e-mails** de status do pedido com layout padronizado da marca.
 
-### 3.6 Testes e treinamento (R$ 400)
+### 3.6 Testes e treinamento (R$ 200)
 - Testes completos de ponta a ponta com pedidos reais/simulados: compra, pagamento, envio ao Olist, NF-e, etiqueta, rastreio, mensagens no WhatsApp e cancelamento.
 - **2 horas de treinamento online** gravado para a equipe.
 - Checklist de validação assinado ao final.
 
-### 3.7 Suporte (R$ 600)
+### 3.7 Suporte (R$ 400)
 - **3 horas técnicas por mês durante 2 meses** (6 h no total) para suporte, correção de bugs e ajustes relacionados ao projeto.
 - Atendimento por WhatsApp/chat da plataforma em horário comercial.
-- Horas extras ou novas demandas: **R$ 100,00/hora**.
+- Horas extras ou novas demandas: **R$ 70,00/hora**.
 
 ---
 
@@ -117,11 +117,11 @@ O objetivo é que o pedido entre pelo site e passe por pagamento, ERP, nota fisc
 
 | Marco | Entrega | % | Valor (pacote) |
 |-------|---------|:-:|--------------:|
-| 1 | Site corrigido e reestilizado | 20% | R$ 1.900,00 |
-| 2 | Integração Olist + APPMAX + NF-e/etiqueta funcionando | 40% | R$ 3.800,00 |
-| 3 | WhatsApp + IA + automações adicionais | 30% | R$ 2.850,00 |
-| 4 | Testes, treinamento e início do suporte | 10% | R$ 950,00 |
-| | **Total** | **100%** | **R$ 9.500,00** |
+| 1 | Site corrigido e reestilizado | 20% | R$ 840,00 |
+| 2 | Integração Olist + APPMAX + NF-e/etiqueta funcionando | 40% | R$ 1.680,00 |
+| 3 | WhatsApp + IA + automações adicionais | 30% | R$ 1.260,00 |
+| 4 | Testes, treinamento e início do suporte | 10% | R$ 420,00 |
+| | **Total** | **100%** | **R$ 4.200,00** |
 
 ---
 

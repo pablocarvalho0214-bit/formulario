@@ -1,16 +1,16 @@
 Olá! Li com atenção as demandas da Luxy Beauty Imports e consigo entregar o projeto completo: site corrigido, operação integrada (WooCommerce + Olist + APPMAX), NF-e e etiqueta em 1 clique, e atendimento com IA no WhatsApp.
 
 VALORES POR SERVIÇO
-1. WooCommerce / site: bugs, loops, imagens, responsividade, reestilização e revisão geral: R$ 1.500
-2. Integração WooCommerce + Olist + APPMAX: SKU, estoque centralizado, preços/variações, pedidos, clientes, pagamento, status/cancelamentos, frete e rastreio: R$ 2.800
-3. NF-e, etiquetas e envio: fluxo de 1 clique com NF, etiqueta, atualização do pedido e rastreio enviado ao cliente: R$ 1.200
-4. WhatsApp + IA: n8n + Evolution API na VPS Hostinger, OpenAI, agente que tira dúvidas e recomenda produtos, mensagens automáticas de pedido até o pós-venda: R$ 2.500
-5. Automações adicionais: carrinho abandonado, pop-ups, Instagram/TikTok e e-mails de status: R$ 1.200
-6. Testes completos + 2 h de treinamento online: R$ 400
-7. Suporte: 3 h/mês por 2 meses: R$ 600
+1. WooCommerce / site: bugs, loops, imagens, responsividade, reestilização e revisão geral: R$ 700
+2. Integração WooCommerce + Olist + APPMAX: SKU, estoque centralizado, preços/variações, pedidos, clientes, pagamento, status/cancelamentos, frete e rastreio: R$ 1.200
+3. NF-e, etiquetas e envio: fluxo de 1 clique com NF, etiqueta, atualização do pedido e rastreio enviado ao cliente: R$ 500
+4. WhatsApp + IA: n8n + Evolution API na VPS Hostinger, OpenAI, agente que tira dúvidas e recomenda produtos, mensagens automáticas de pedido até o pós-venda: R$ 1.100
+5. Automações adicionais: carrinho abandonado, pop-ups, Instagram/TikTok e e-mails de status: R$ 500
+6. Testes completos + 2 h de treinamento online: R$ 200
+7. Suporte: 3 h/mês por 2 meses: R$ 400
 
-Soma: R$ 10.200
-PACOTE COMPLETO: R$ 9.500
+Soma: R$ 4.600
+PACOTE COMPLETO: R$ 4.200
 
 PRAZO: cerca de 7 semanas para implantação, mais 2 meses de suporte.
 
