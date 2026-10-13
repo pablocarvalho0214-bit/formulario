@@ -1,28 +1,32 @@
-Olá! Analisei as demandas da Luxy Beauty Imports e o projeto se encaixa bem no meu trabalho com correções de e-commerce, integrações e automações.
+Olá! Analisei as demandas da {b}Luxy Beauty Imports{/b} e o projeto se encaixa bem no meu trabalho com correções de e-commerce, integrações e automações.
 
-O objetivo é que cada pedido saia do site e passe por pagamento, Olist, NF-e, etiqueta, envio e aviso ao cliente sem digitação manual. A única etapa manual é a separação, que termina com 1 clique.
+O objetivo é que cada pedido saia do site e passe por pagamento, Olist, NF-e, etiqueta, envio e aviso ao cliente {b}sem digitação manual{/b}. A única etapa manual é a separação, que termina com {b}1 clique{/b}.
 
-ESCOPO E VALORES
-1. Correções do WooCommerce (bugs, loops, imagens, responsividade e reestilização): R$ 350
-2. Integração WooCommerce + Olist + APPMAX (SKU, estoque, preços, variações, pedidos, clientes, status, frete e rastreio): R$ 600
-3. NF-e, etiqueta e envio em 1 clique, com rastreio enviado ao cliente: R$ 250
-4. WhatsApp + IA (n8n + Evolution API na VPS Hostinger + OpenAI), com atendimento, recomendação de produtos e mensagens automáticas do pedido: R$ 550
-5. Automações (carrinho abandonado, pop-ups, Instagram/TikTok e e-mails de status): R$ 250
-6. Testes completos + 2 h de treinamento online: R$ 100
-7. Suporte de 3 h/mês por 2 meses: R$ 200
+{b}ESCOPO E VALORES{/b}
+1. Correções do WooCommerce (bugs, loops, imagens, responsividade e reestilização): {b}R$ 350{/b}
+2. Integração WooCommerce + Olist + APPMAX (SKU, estoque, preços, variações, pedidos, clientes, status, frete e rastreio): {b}R$ 600{/b}
+3. NF-e, etiqueta e envio em 1 clique, com rastreio enviado ao cliente: {b}R$ 250{/b}
+4. WhatsApp + IA (n8n + Evolution API na VPS Hostinger + OpenAI), com atendimento, recomendação de produtos e mensagens automáticas do pedido: {b}R$ 550{/b}
+5. Automações (carrinho abandonado, pop-ups, Instagram/TikTok e e-mails de status): {b}R$ 250{/b}
+6. Testes completos + 2 h de treinamento online: {b}R$ 100{/b}
+7. Suporte de 3 h/mês por 2 meses: {b}R$ 200{/b}
 
-Valor total do pacote: R$ 2.100 (os itens também podem ser contratados separadamente)
+{q}{b}Valor total do pacote: R$ 2.100{/b}
+{i}Os itens também podem ser contratados separadamente.{/i}{/q}
 
-PRAZO: 7 semanas para implantação, mais 2 meses de suporte.
+{b}PRAZO{/b}
+7 semanas para implantação, mais 2 meses de suporte.
 
-PAGAMENTO EM ETAPAS
+{b}PAGAMENTO EM ETAPAS{/b}
 20%: site corrigido
 40%: integração Olist + APPMAX + NF-e/etiqueta
 30%: WhatsApp + IA + automações
 10%: testes e treinamento
 
-Não estão inclusos os custos de terceiros: VPS, consumo da OpenAI, plano Olist, taxas APPMAX, certificado A1 e plugins pagos, se forem necessários.
+{b}NÃO INCLUSOS{/b}
+Custos de terceiros: VPS, consumo da OpenAI, plano Olist, taxas APPMAX, certificado A1 e plugins pagos, se forem necessários.
 
-GARANTIAS: backup antes de qualquer alteração, toda a infraestrutura no nome da loja, documentação dos fluxos e 30 dias de garantia.
+{b}GARANTIAS{/b}
+Backup antes de qualquer alteração, toda a infraestrutura no nome da loja, documentação dos fluxos e {u}30 dias de garantia{/u}.
 
 Envio a proposta detalhada em anexo. Se preferir, podemos fazer uma chamada rápida para alinhar as prioridades.
