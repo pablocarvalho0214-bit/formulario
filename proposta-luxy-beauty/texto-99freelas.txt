@@ -1,0 +1,27 @@
+Olá! Li com atenção as demandas da Luxy Beauty Imports e consigo entregar o projeto completo: site corrigido, operação integrada (WooCommerce + Olist + APPMAX), NF-e e etiqueta em 1 clique, e atendimento com IA no WhatsApp.
+
+VALORES POR SERVIÇO
+1. WooCommerce / site: bugs, loops, imagens, responsividade, reestilização e revisão geral: R$ 1.500
+2. Integração WooCommerce + Olist + APPMAX: SKU, estoque centralizado, preços/variações, pedidos, clientes, pagamento, status/cancelamentos, frete e rastreio: R$ 2.800
+3. NF-e, etiquetas e envio: fluxo de 1 clique com NF, etiqueta, atualização do pedido e rastreio enviado ao cliente: R$ 1.200
+4. WhatsApp + IA: n8n + Evolution API na VPS Hostinger, OpenAI, agente que tira dúvidas e recomenda produtos, mensagens automáticas de pedido até o pós-venda: R$ 2.500
+5. Automações adicionais: carrinho abandonado, pop-ups, Instagram/TikTok e e-mails de status: R$ 1.200
+6. Testes completos + 2 h de treinamento online: R$ 400
+7. Suporte: 3 h/mês por 2 meses: R$ 600
+
+Soma: R$ 10.200
+PACOTE COMPLETO: R$ 9.500
+
+PRAZO: cerca de 7 semanas para implantação, mais 2 meses de suporte.
+
+PAGAMENTO POR MARCOS
+- 20%: site corrigido
+- 40%: integração Olist + APPMAX + NF/etiqueta funcionando
+- 30%: WhatsApp + IA + automações
+- 10%: testes e treinamento
+
+Não estão inclusos os custos de terceiros: VPS Hostinger, consumo da API OpenAI, plano Olist, taxas APPMAX, certificado A1 e plugins premium (se necessários; aviso antes de comprar).
+
+Trabalho com backup antes de qualquer alteração, deixo toda a infraestrutura no nome da loja e entrego documentação dos fluxos. Ofereço 30 dias de garantia.
+
+Posso enviar a proposta detalhada em PDF. Fico à disposição para uma chamada rápida e alinhar prioridades!
